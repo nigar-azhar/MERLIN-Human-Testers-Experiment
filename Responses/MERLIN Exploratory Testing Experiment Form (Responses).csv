@@ -1,0 +1,51 @@
+﻿Timestamp,Tester ID,Game Variant ID (V01-V50),Start time,End time,Fault found,Describe the fault if found.,Additional Comments (like highest score during that session)
+3/15/2024 10:16:00,HT04,V08,10:00:00 AM,10:15:00 AM,Yes,"The bird was passing through the pipes even though it was hitting it initially, but was dead after the score hit 8",8
+3/15/2024 10:16:47,HT01,V01,10:10:00 AM,10:15:00 AM,Yes,Score was not changing.,"we crossed 10 pipes still 0 score , very bad"
+3/15/2024 10:19:41,HT01,V06,10:16:00 AM,10:18:00 AM,Yes,when crossed from first pipe score changed from 0 to 0.0 and then didn't changed at all,0
+3/15/2024 10:20:00,HT05,V05,10:10:00 AM,10:19:00 AM,Yes,Score was not updating while passing through the pipes,0
+3/15/2024 10:21:40,HT05,V10,10:19:00 AM,10:22:00 AM,No,No Fault in the game,22
+3/15/2024 10:22:34,HT03,V03,10:05:00 AM,10:21:00 AM,Yes,Score of the player is decremented instead of incrementing,Highest score was -3 instead of 3
+3/15/2024 10:24:45,HT05,V15,10:22:00 AM,10:24:00 AM,No,None,12
+3/15/2024 10:25:12,HT01,V11,10:20:00 AM,10:25:00 AM,Yes,Even after falling below the bottom border the game continues with change in score.,15 was our highest score
+3/15/2024 10:25:46,HT05,V20,10:24:00 AM,10:25:00 AM,Yes,Up Arrow doesn't work after the first time,0
+3/15/2024 10:27:50,HT04,V09,10:16:00 AM,10:25:00 AM,Yes,"The bird was not going up upon command, it just went down and ended, however times I run the variant",0
+3/15/2024 10:29:01,HT01,V16,10:15:00 AM,10:28:00 AM,No,There was no found,I played till 18 but couldn't find any bug
+3/15/2024 10:29:46,HT05,V25,10:25:00 AM,10:29:00 AM,Yes,The flappy bird jump is twice than its normal jump,10
+3/15/2024 10:30:22,HT04,V14,10:25:00 AM,10:29:00 AM,Yes,"The bird just went down, even thought the command/action keys were used to send it up to pass through the pipe. ",0
+3/15/2024 10:32:46,HT05,V30,10:29:00 AM,10:32:00 AM,Yes,The jump of flappy bird was half of its normal jump,31
+3/15/2024 10:33:57,HT05,V35,10:32:00 AM,10:33:00 AM,Yes,The game freezes on pressing up key or space bar,0
+3/15/2024 10:35:16,HT01,V21,10:27:00 AM,10:35:00 AM,Yes,"Incosistent speed of pipes , initially one pipe was appearing and after scrossing 15 pipes started appearing frequently ",went upto 23 ;)
+3/15/2024 10:36:26,HT04,V19,10:30:00 AM,10:35:00 AM,Yes,"Missing commands, one time the bird goes up, then it goes down on its own",0
+3/15/2024 10:36:29,HT05,V40,10:34:00 AM,10:36:00 AM,Yes,Game freezes on score 4 before the 5th pipe,4
+3/15/2024 10:37:07,HT01,V26,10:35:00 AM,10:36:00 AM,Yes,score was increasing in negative points (-1),-1 ( found bug early)
+3/15/2024 10:38:31,HT03,V33,10:23:00 AM,10:36:00 AM,No,Not Found,Highest Score was 1
+3/15/2024 10:41:23,HT05,V50,10:39:00 AM,10:41:00 AM,Yes,Game freezes at Score 26,26
+3/15/2024 10:41:33,HT03,V13,10:39:00 AM,10:40:00 AM,Yes,On pressing space the bird is not bouncing or rising. It continuously falls to the bottom,Highest Score is 0 because I cannot control the bird
+3/15/2024 10:42:22,HT01,V31,10:36:00 AM,10:41:00 AM,Yes,the bird don't even fall completely it can be saved with .00001 margin but game ends,17
+3/15/2024 10:45:54,HT01,V41,10:42:00 AM,10:45:00 AM,Yes,game hanged at 5th pipe,couldn't proceed after 5th pipe
+3/15/2024 10:48:42,HT01,V46,10:45:00 AM,10:47:00 AM,Yes,Game hanged at 11,couldn't proceed further (I'm genius) 
+3/15/2024 10:49:28,HT03,V18,10:42:00 AM,10:49:00 AM,No,Not Found,Highest Score is 4
+3/15/2024 10:52:21,HT04,V24,10:37:00 AM,10:52:00 AM,No,I couldn't find any,4
+3/15/2024 10:54:03,HT04,V04,10:45:00 AM,10:00:00 AM,No,I couldn't find it in this variant,4
+3/15/2024 10:57:56,HT03,V23,10:50:00 AM,10:55:00 AM,Yes,The jump is too high if we have to paas the pipe that is located on a higher level. Each time it bumps on the top of the frame,Highest Score was 1
+3/15/2024 11:00:55,HT05,V45,10:45:00 AM,11:00:00 AM,No,No Bug,15
+3/15/2024 11:02:56,HT02,V02,10:55:00 AM,11:00:00 AM,Yes,The pipes kept glitching. ,7
+3/15/2024 11:04:42,HT03,V28,10:58:00 AM,11:05:00 AM,No,Not Found,Highest Score was 8
+3/15/2024 11:09:08,HT02,V07,11:06:00 AM,11:08:00 AM,Yes,Score did not change. ,0
+3/15/2024 11:09:32,HT03,V38,11:05:00 AM,11:10:00 AM,No,Not Found,Highest Score was 5
+3/15/2024 11:16:34,HT04,V29,11:00:00 AM,11:15:00 AM,No,can't find in this,4
+3/15/2024 11:16:45,HT03,V48,11:10:00 AM,11:15:00 AM,No,No bugs found,Highest Score was 2
+3/15/2024 11:17:08,HT02,V12,11:10:00 AM,11:14:00 AM,Yes,The top barrier doesn't exist in game. The bird flies out of the screen. ,4
+3/15/2024 11:21:31,HT02,V17,11:18:00 AM,11:19:00 AM,Yes,"The bird won't fly high. It flies on the first jump but when pressed twice, it won't jump. ",0
+3/15/2024 11:31:36,HT04,V34,11:15:00 AM,11:30:00 AM,No,can't find in this version,2
+3/15/2024 11:48:32,HT04,V39,11:32:00 AM,11:47:00 AM,No,not found,2
+3/15/2024 11:49:29,HT02,V22,11:20:00 AM,11:49:00 AM,No, ,8
+3/15/2024 11:51:57,HT02,V27,11:50:00 AM,11:51:00 AM,Yes,Bird can pass through the pipes. ,3
+3/15/2024 11:54:20,HT02,V32,11:53:00 AM,11:54:00 AM,Yes,Flight speed of bird is slow. ,1
+3/15/2024 11:57:10,HT02,V37,11:55:00 AM,11:56:00 AM,Yes,The game keeps hanging. ,0
+3/15/2024 11:59:49,HT02,V47,11:57:00 AM,11:58:00 AM,Yes,"The score doubles. Upon passing one pipe, instead of getting 1, player gets 2. ",4
+3/15/2024 12:04:03,HT03,V43,11:45:00 AM,12:00:00 PM,No,couldn't find,8
+3/15/2024 12:06:03,HT04,V44,11:50:00 AM,12:05:00 PM,No,couldn't find,3
+3/15/2024 12:16:30,HT02,V42,12:00:00 PM,12:15:00 PM,No,not found,2
+3/15/2024 12:20:35,HT04,V49,12:05:00 AM,12:20:00 AM,No,couldn't find,3
+3/15/2024 13:29:01,HT01,V36,13:15:00 PM,13:28:00 PM,No,There was no found,I played till 15 but couldn't find any bug

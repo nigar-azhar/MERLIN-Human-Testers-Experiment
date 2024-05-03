@@ -1,0 +1,6 @@
+Timestamp,Tester ID,How was your overall experience during this experiment?,How can this experiment be improved?
+3/15/2024 11:03:05,HT04,"It was good, the bugs were initially easy to find but gets harder with each variant as I wasn't able to identify them","I wasn't very familiar with Flappy bird so maybe a game like Subway surfers could've been a better test to identify bugs. Also, the fps ratio of the game was off in my opinion, I wasn't able to control the action keys as much. "
+3/15/2024 11:30:20,HT03,The bugs that I found were too simple like score decrement and bird descending directly to the ground. There might be some bugs that I overlooked during the experiment. But the overall experience was good.,The time to load the game can be improved for convenient testing because it is a game in which you are required to restart the game again and again.
+3/15/2024 12:18:46,HT02,It was fun and not too tedious as I had expected it to be. Though it was a little frustrating when I couldn't find the bugs and the bird kept dying. ,No improvements needed.
+3/15/2024 12:54:01,HT01,It was nice also bit challenging, By adding other games as well.
+3/15/2024 12:57:19,HT05,It was fine overall. I just found the process of testing the same game over and over tedious.,Less number of variants per tester or more breaks.
